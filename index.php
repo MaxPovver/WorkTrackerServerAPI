@@ -5,4 +5,8 @@
  * Date: 20.06.15
  * Time: 14:01
  */
-echo "Yay, ".$_GET["pony"];
+
+namespace WorkTracker;
+require_once("hidden/DBConsts.php");
+
+echo "Yay, ".DBConsts::DB_HOST;
